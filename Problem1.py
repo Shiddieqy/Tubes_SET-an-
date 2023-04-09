@@ -19,15 +19,16 @@ H1 = CP.PropsSI('H', 'T', T1, 'Q', 0, 'R134a')
 H2 = H1
 P4 = P1
 H4 = CP.PropsSI('H', 'P', P4, 'S', S4, 'R134a')
+P2 = P3
 
 ER = H3-H2
 Wcp = H4-H3
 Q = H4-H1
 COP = ER/Wcp
 KWton = 12/(COP*3.412)
-print("h1 :",H1)
-print("h2 :",H2)
-print("h3 :",H3)
-print("h4 :",H4)
+print("h1 :",H1, "P1 = ",P1)
+print("h2 :",H2, "P2 = ",P2)
+print("h3 :",H3, "P3 = ",P3)
+print("h4 :",H4, "P4 = ",P4)
 print("COP :",COP)
 print("kW/ton :",KWton)
