@@ -1,11 +1,13 @@
 import CoolProp.CoolProp as CP
 
 T_inlet = 12
-T_outlet = 7
+# T_outlet = 7
+# T_outlet = 7 + 0.4
+T_outlet = 7 - 0.4
+#nim 7 17 51 75 = jumlah satuan 20
+T_env = 34
 
-T_env = 30
-
-debit = 2.5
+# debit = 2.5
 
 
 T3 = T_outlet-3+273.15
