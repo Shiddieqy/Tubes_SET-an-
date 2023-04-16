@@ -1,6 +1,6 @@
 import CoolProp.CoolProp as CP
 
-#kondisi inlet
+#kondisi inlet dan outlet
 T_inlet = 12
 # T_outlet = 7
 # T_outlet = 7 + 0.4
@@ -46,3 +46,4 @@ print("h3 :",H3, "P3 = ",P3)
 print("h4 :",H4, "P4 = ",P4)
 print("COP :",COP)
 print("kW/ton :",KWton)
+print(ER)
